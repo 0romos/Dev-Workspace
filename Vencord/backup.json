@@ -1,0 +1,798 @@
+{
+    "settings": {
+        "autoUpdate": true,
+        "autoUpdateNotification": true,
+        "useQuickCss": true,
+        "themeLinks": [],
+        "enabledThemes": [],
+        "enableReactDevtools": true,
+        "frameless": true,
+        "transparent": false,
+        "winCtrlQ": false,
+        "disableMinSize": false,
+        "winNativeTitleBar": false,
+        "plugins": {
+            "MessageEventsAPI": {
+                "enabled": true
+            },
+            "CommandsAPI": {
+                "enabled": true
+            },
+            "MenuItemDeobfuscatorAPI": {
+                "enabled": true
+            },
+            "MessagePopoverAPI": {
+                "enabled": true
+            },
+            "MessageAccessoriesAPI": {
+                "enabled": true
+            },
+            "MessageDecorationsAPI": {
+                "enabled": true
+            },
+            "MemberListDecoratorsAPI": {
+                "enabled": true
+            },
+            "ServerListAPI": {
+                "enabled": true
+            },
+            "AlwaysTrust": {
+                "enabled": true,
+                "domain": true,
+                "file": true
+            },
+            "AnonymiseFileNames": {
+                "enabled": false,
+                "method": 0,
+                "randomisedLength": 7
+            },
+            "BANger": {
+                "enabled": false
+            },
+            "BetterGifAltText": {
+                "enabled": false
+            },
+            "BetterNotesBox": {
+                "enabled": true,
+                "hide": true,
+                "noSpellCheck": true
+            },
+            "BetterRoleDot": {
+                "enabled": true,
+                "bothStyles": false,
+                "copyRoleColorInProfilePopout": false
+            },
+            "BetterUploadButton": {
+                "enabled": true
+            },
+            "BlurNSFW": {
+                "enabled": false,
+                "blurAmount": 10
+            },
+            "CallTimer": {
+                "enabled": false,
+                "format": "stopwatch"
+            },
+            "DisableDMCallIdle": {
+                "enabled": true
+            },
+            "EmoteCloner": {
+                "enabled": false
+            },
+            "Experiments": {
+                "enabled": false,
+                "enableIsStaff": false,
+                "forceStagingBanner": false
+            },
+            "FakeNitro": {
+                "enabled": false,
+                "enableEmojiBypass": true,
+                "enableStickerBypass": true,
+                "enableStreamQualityBypass": true,
+                "emojiSize": 48,
+                "stickerSize": 160
+            },
+            "ForceOwnerCrown": {
+                "enabled": false
+            },
+            "iLoveSpam": {
+                "enabled": true
+            },
+            "IgnoreActivities": {
+                "enabled": false,
+                "ignoredActivities": [],
+                "allowedIds": "",
+                "ignorePlaying": false,
+                "ignoreListening": false
+            },
+            "InvisibleChat": {
+                "enabled": false
+            },
+            "LoadingQuotes": {
+                "enabled": false,
+                "replaceEvents": true,
+                "enableDiscordPresetQuotes": false,
+                "additionalQuotes": "",
+                "additionalQuotesDelimiter": "|",
+                "enablePluginPresetQuotes": true
+            },
+            "MemberCount": {
+                "enabled": false,
+                "memberList": true,
+                "toolTip": true
+            },
+            "MessageLinkEmbeds": {
+                "enabled": true,
+                "automodEmbeds": "never",
+                "listMode": "blacklist",
+                "idList": ""
+            },
+            "MessageLogger": {
+                "enabled": true,
+                "deleteStyle": "text",
+                "ignoreBots": false,
+                "ignoreSelf": false,
+                "ignoreUsers": "",
+                "ignoreChannels": "",
+                "ignoreGuilds": "",
+                "logEdits": true,
+                "logDeletes": true
+            },
+            "MuteNewGuild": {
+                "enabled": true,
+                "guild": true,
+                "everyone": true,
+                "role": true
+            },
+            "NoBlockedMessages": {
+                "enabled": false,
+                "ignoreBlockedMessages": false
+            },
+            "NoDevtoolsWarning": {
+                "enabled": true
+            },
+            "NoReplyMention": {
+                "enabled": false,
+                "exemptList": "1234567890123445,1234567890123445",
+                "userList": "1234567890123445,1234567890123445",
+                "shouldPingListed": true,
+                "inverseShiftReply": false
+            },
+            "NoScreensharePreview": {
+                "enabled": false
+            },
+            "NoSystemBadge": {
+                "enabled": false
+            },
+            "NoUnblockToJump": {
+                "enabled": true
+            },
+            "NSFWGateBypass": {
+                "enabled": true
+            },
+            "PlainFolderIcon": {
+                "enabled": true
+            },
+            "PronounDB": {
+                "enabled": false
+            },
+            "RevealAllSpoilers": {
+                "enabled": true
+            },
+            "ReverseImageSearch": {
+                "enabled": true
+            },
+            "ReviewDB": {
+                "enabled": false
+            },
+            "ShikiCodeblocks": {
+                "enabled": false,
+                "useDevIcon": "GREYSCALE",
+                "theme": "https://raw.githubusercontent.com/shikijs/shiki/0b28ad8ccfbf2615f2d9d38ea8255416b8ac3043/packages/shiki/themes/min-dark.json",
+                "tryHljs": "SECONDARY",
+                "bgOpacity": 100
+            },
+            "ShowHiddenChannels": {
+                "enabled": true,
+                "showMode": 1,
+                "hideUnreads": true,
+                "defaultAllowedUsersAndRolesDropdownState": true
+            },
+            "SilentTyping": {
+                "enabled": true,
+                "showIcon": false,
+                "isEnabled": true,
+                "contextMenu": true
+            },
+            "SortFriendRequests": {
+                "enabled": false,
+                "showDates": true
+            },
+            "SpotifyControls": {
+                "enabled": false,
+                "hoverControls": false
+            },
+            "SpotifyCrack": {
+                "enabled": false,
+                "noSpotifyAutoPause": true,
+                "keepSpotifyActivityOnIdle": false
+            },
+            "StartupTimings": {
+                "enabled": false
+            },
+            "TimeBarAllActivities": {
+                "enabled": false
+            },
+            "TypingTweaks": {
+                "enabled": false,
+                "alternativeFormatting": true,
+                "showRoleColors": false,
+                "showAvatars": true
+            },
+            "Unindent": {
+                "enabled": false
+            },
+            "ReactErrorDecoder": {
+                "enabled": true
+            },
+            "VoiceChatDoubleClick": {
+                "enabled": false
+            },
+            "ViewIcons": {
+                "enabled": true,
+                "format": "webp",
+                "imgSize": "1024"
+            },
+            "VolumeBooster": {
+                "enabled": true,
+                "multiplier": 2
+            },
+            "WebContextMenus": {
+                "enabled": true
+            },
+            "WhoReacted": {
+                "enabled": false
+            },
+            "Settings": {
+                "enabled": true,
+                "settingsLocation": "aboveActivity"
+            },
+            "WebRichPresence (arRPC)": {
+                "enabled": false
+            },
+            "ClearURLs": {
+                "enabled": true
+            },
+            "ConsoleShortcuts": {
+                "enabled": false
+            },
+            "CorruptMp4s": {
+                "enabled": true
+            },
+            "CustomRPC": {
+                "enabled": false,
+                "type": 5,
+                "buttonOneText": "Github",
+                "buttonTwoText": "Twitter",
+                "buttonOneURL": "https://github.com/0xG4st",
+                "buttonTwoURL": "https://twitter.com/0xGast",
+                "appID": "1072446359564722197",
+                "appName": " ",
+                "imageBig": " ",
+                "imageBigTooltip": " ",
+                "imageSmall": " ",
+                "imageSmallTooltip": " ",
+                "details": " ",
+                "state": " "
+            },
+            "UrbanDictionary": {
+                "enabled": false
+            },
+            "Fart2": {
+                "enabled": false
+            },
+            "FriendInvites": {
+                "enabled": false
+            },
+            "FxTwitter": {
+                "enabled": true
+            },
+            "HideAttachments": {
+                "enabled": false
+            },
+            "KeepCurrentChannel": {
+                "enabled": false
+            },
+            "LastFMRichPresence": {
+                "enabled": false,
+                "hideWithSpotify": true
+            },
+            "MessageClickActions": {
+                "enabled": true,
+                "enableDoubleClickToEdit": true,
+                "requireModifier": false,
+                "enableDoubleClickToReply": true
+            },
+            "MessageTags": {
+                "enabled": false
+            },
+            "MoreCommands": {
+                "enabled": false
+            },
+            "MoreKaomoji": {
+                "enabled": false
+            },
+            "Moyai": {
+                "enabled": false
+            },
+            "NoCanaryMessageLinks": {
+                "enabled": false
+            },
+            "oneko": {
+                "enabled": false
+            },
+            "petpet": {
+                "enabled": false
+            },
+            "PlatformIndicators": {
+                "enabled": true,
+                "list": false,
+                "badges": true,
+                "messages": false,
+                "colorMobileIndicator": false
+            },
+            "QuickMention": {
+                "enabled": false
+            },
+            "QuickReply": {
+                "enabled": true
+            },
+            "ReadAllNotificationsButton": {
+                "enabled": false
+            },
+            "ServerListIndicators": {
+                "enabled": false,
+                "mode": 2
+            },
+            "SpotifyShareCommands": {
+                "enabled": false
+            },
+            "UwUifier": {
+                "enabled": false
+            },
+            "VcNarrator": {
+                "enabled": false,
+                "joinMessage": "{{USER}} joined",
+                "latinOnly": false,
+                "sayOwnName": false,
+                "leaveMessage": "{{USER}} left",
+                "muteMessage": "{{USER}} Muted",
+                "unmuteMessage": "{{USER}} unmuted",
+                "deafenMessage": "{{USER}} deafened",
+                "undeafenMessage": "{{USER}} undeafened",
+                "moveMessage": "{{USER}} moved to {{CHANNEL}}"
+            },
+            "ViewRaw": {
+                "enabled": false,
+                "clickMethod": "Left"
+            },
+            "BadgeAPI": {
+                "enabled": true
+            },
+            "NoticesAPI": {
+                "enabled": true
+            },
+            "NoTrack": {
+                "enabled": true,
+                "disableAnalytics": true
+            },
+            "richerCider": {
+                "enabled": false
+            },
+            "NoF1": {
+                "enabled": true
+            },
+            "NoRPC": {
+                "enabled": false
+            },
+            "ContextMenuAPI": {
+                "enabled": true
+            },
+            "ColorSighted": {
+                "enabled": true
+            },
+            "CrashHandler": {
+                "enabled": true,
+                "attemptToPreventCrashes": true,
+                "attemptToNavigateToHome": true
+            },
+            "FixInbox": {
+                "enabled": true
+            },
+            "RoleColorEverywhere": {
+                "enabled": false
+            },
+            "SilentMessageToggle": {
+                "enabled": true,
+                "persistState": true,
+                "autoDisable": false
+            },
+            "TypingIndicator": {
+                "enabled": true,
+                "includeMutedChannels": false,
+                "includeCurrentChannel": true,
+                "indicatorMode": 3
+            },
+            "SupportHelper": {
+                "enabled": true
+            },
+            "F8Break": {
+                "enabled": false
+            },
+            "MoreUserTags": {
+                "enabled": true,
+                "visibility_WEBHOOK": "always",
+                "visibility_OWNER": "always",
+                "visibility_ADMINISTRATOR": "always",
+                "visibility_MODERATOR_STAFF": "always",
+                "visibility_MODERATOR": "always",
+                "visibility_VOICE_MODERATOR": "always",
+                "tagSettings": {
+                    "WEBHOOK": {
+                        "text": "Webhook",
+                        "showInChat": true,
+                        "showInNotChat": true
+                    },
+                    "OWNER": {
+                        "text": "Owner",
+                        "showInChat": true,
+                        "showInNotChat": true
+                    },
+                    "ADMINISTRATOR": {
+                        "text": "Admin",
+                        "showInChat": true,
+                        "showInNotChat": true
+                    },
+                    "MODERATOR_STAFF": {
+                        "text": "Staff",
+                        "showInChat": true,
+                        "showInNotChat": true
+                    },
+                    "MODERATOR": {
+                        "text": "Mod",
+                        "showInChat": true,
+                        "showInNotChat": true
+                    },
+                    "VOICE_MODERATOR": {
+                        "text": "VC Mod",
+                        "showInChat": true,
+                        "showInNotChat": true
+                    },
+                    "CHAT_MODERATOR": {
+                        "text": "Chat Mod",
+                        "showInChat": true,
+                        "showInNotChat": true
+                    }
+                }
+            },
+            "SettingsStoreAPI": {
+                "enabled": true
+            },
+            "BetterFolders": {
+                "enabled": false,
+                "sidebar": true,
+                "closeAllHomeButton": false,
+                "closeAllFolders": false,
+                "forceOpen": false,
+                "sidebarAnim": true,
+                "closeOthers": false,
+                "showFolderIcon": 1,
+                "keepIcons": false
+            },
+            "FakeProfileThemes": {
+                "enabled": false,
+                "nitroFirst": true
+            },
+            "GameActivityToggle": {
+                "enabled": false
+            },
+            "GifPaste": {
+                "enabled": false
+            },
+            "ImageZoom": {
+                "enabled": true,
+                "size": 681.4465222143533,
+                "zoom": 3.991950336965668,
+                "saveZoomValues": true,
+                "preventCarouselFromClosingOnClick": true,
+                "invertScroll": true,
+                "zoomSpeed": 0.5,
+                "nearestNeighbour": false,
+                "square": false
+            },
+            "RelationshipNotifier": {
+                "enabled": true,
+                "offlineRemovals": true,
+                "groups": true,
+                "servers": true,
+                "friends": true,
+                "friendRequestCancels": true,
+                "notices": false
+            },
+            "SearchReply": {
+                "enabled": true
+            },
+            "UserVoiceShow": {
+                "enabled": true,
+                "showInUserProfileModal": true,
+                "showVoiceChannelSectionHeader": true
+            },
+            "Wikisearch": {
+                "enabled": false
+            },
+            "AlwaysAnimate": {
+                "enabled": false
+            },
+            "PinDMs": {
+                "enabled": false,
+                "dmSectioncollapsed": false,
+                "pinOrder": 0
+            },
+            "SendTimestamps": {
+                "enabled": false
+            },
+            "ShowAllMessageButtons": {
+                "enabled": false
+            },
+            "ShowConnections": {
+                "enabled": true,
+                "iconSpacing": 1,
+                "iconSize": 32
+            },
+            "ShowMeYourName": {
+                "enabled": true,
+                "mode": "user-nick",
+                "displayNames": false,
+                "inReplies": true
+            },
+            "TextReplace": {
+                "enabled": false
+            },
+            "USRBG": {
+                "enabled": false,
+                "voiceBackground": true,
+                "nitroFirst": true
+            },
+            "VencordToolbox": {
+                "enabled": false
+            },
+            "GreetStickerPicker": {
+                "enabled": false
+            },
+            "FavoriteEmojiFirst": {
+                "enabled": false
+            },
+            "PermissionsViewer": {
+                "enabled": false,
+                "permissionsSortOrder": 0,
+                "defaultPermissionsDropdownState": false
+            },
+            "Translate": {
+                "enabled": false,
+                "autoTranslate": false,
+                "showChatBarButton": true
+            },
+            "ValidUser": {
+                "enabled": true
+            },
+            "NoPendingCount": {
+                "enabled": false,
+                "hideFriendRequestsCount": true,
+                "hideMessageRequestsCount": true,
+                "hidePremiumOffersCount": true
+            },
+            "NoProfileThemes": {
+                "enabled": false
+            },
+            "BiggerStreamPreview": {
+                "enabled": false
+            },
+            "MutualGroupDMs": {
+                "enabled": false
+            },
+            "UnsuppressEmbeds": {
+                "enabled": false
+            },
+            "OpenInApp": {
+                "enabled": false,
+                "spotify": true
+            },
+            "CopyUserURLs": {
+                "enabled": false
+            },
+            "FavoriteGifSearch": {
+                "enabled": false
+            },
+            "FixSpotifyEmbeds": {
+                "enabled": false
+            },
+            "NormalizeMessageLinks": {
+                "enabled": false
+            },
+            "PreviewMessage": {
+                "enabled": false
+            },
+            "SecretRingToneEnabler": {
+                "enabled": false
+            },
+            "VoiceMessages": {
+                "enabled": true
+            },
+            "PictureInPicture": {
+                "enabled": false
+            },
+            "ServerProfile": {
+                "enabled": true
+            },
+            "ShowTimeouts": {
+                "enabled": true
+            },
+            "ThemeAttributes": {
+                "enabled": true
+            },
+            "BetterGifPicker": {
+                "enabled": false
+            },
+            "BetterRoleContext": {
+                "enabled": false
+            },
+            "BetterSessions": {
+                "enabled": true,
+                "backgroundCheck": true,
+                "checkInterval": 2
+            },
+            "BetterSettings": {
+                "enabled": false
+            },
+            "ClientTheme": {
+                "enabled": false
+            },
+            "Dearrow": {
+                "enabled": false
+            },
+            "Decor": {
+                "enabled": false
+            },
+            "DisableCallIdle": {
+                "enabled": false
+            },
+            "FixCodeblockGap": {
+                "enabled": false
+            },
+            "FixYoutubeEmbeds": {
+                "enabled": false
+            },
+            "FriendsSince": {
+                "enabled": false
+            },
+            "ImageLink": {
+                "enabled": false
+            },
+            "ImplicitRelationships": {
+                "enabled": false
+            },
+            "MessageLatency": {
+                "enabled": false
+            },
+            "NewGuildSettings": {
+                "enabled": false
+            },
+            "NoMosaic": {
+                "enabled": false
+            },
+            "NotificationVolume": {
+                "enabled": false
+            },
+            "NoTypingAnimation": {
+                "enabled": false
+            },
+            "OnePingPerDM": {
+                "enabled": false
+            },
+            "OverrideForumDefaults": {
+                "enabled": false
+            },
+            "PauseInvitesForever": {
+                "enabled": false
+            },
+            "PermissionFreeWill": {
+                "enabled": false
+            },
+            "ReplyTimestamp": {
+                "enabled": false
+            },
+            "ResurrectHome": {
+                "enabled": false
+            },
+            "ShowHiddenThings": {
+                "enabled": false
+            },
+            "StreamerModeOnStream": {
+                "enabled": false
+            },
+            "SuperReactionTweaks": {
+                "enabled": false
+            },
+            "UnlockedAvatarZoom": {
+                "enabled": false
+            },
+            "VoiceDownload": {
+                "enabled": false
+            },
+            "XSOverlay": {
+                "enabled": false
+            },
+            "ChatInputButtonAPI": {
+                "enabled": true
+            },
+            "PartyMode": {
+                "enabled": false
+            },
+            "AutomodContext": {
+                "enabled": false
+            },
+            "CtrlEnterSend": {
+                "enabled": false
+            },
+            "CustomIdle": {
+                "enabled": false
+            },
+            "DontRoundMyTimestamps": {
+                "enabled": false
+            },
+            "MaskedLinkPaste": {
+                "enabled": false
+            },
+            "NoDefaultHangStatus": {
+                "enabled": false
+            },
+            "NoServerEmojis": {
+                "enabled": false
+            },
+            "ReplaceGoogleSearch": {
+                "enabled": false
+            },
+            "Summaries": {
+                "enabled": false,
+                "summaryExpiryThresholdDays": 3
+            },
+            "ShowTimeoutDuration": {
+                "enabled": false
+            },
+            "ValidReply": {
+                "enabled": true
+            },
+            "WatchTogetherAdblock": {
+                "enabled": false
+            },
+            "MessageUpdaterAPI": {
+                "enabled": true
+            }
+        },
+        "notifications": {
+            "timeout": 5000,
+            "position": "bottom-right",
+            "useNative": "not-focused",
+            "logLimit": 50
+        },
+        "cloud": {
+            "authenticated": false,
+            "url": "https://api.vencord.dev/",
+            "settingsSync": false,
+            "settingsSyncVersion": 1717277331859
+        },
+        "notifyAboutUpdates": true,
+        "macosTranslucency": false
+    },
+    "quickCss": "/**\n * @name AMOLED-Cord\n * @author LuckFire\n * @description A basically pitch black theme for Discord. Lights out, baby!\n * @version 4.1.1\n * @invite vYdXbEzqDs\n * @authorId 399416615742996480\n * @source https://github.com/LuckFire/amoled-cord\n * @updateUrl https://github.com/LuckFire/amoled-cord/blob/main/clients/amoled-cord.theme.css\n*/\n\n@import url(\"https://luckfire.github.io/amoled-cord/src/amoled-cord.css\");\n\n:root {\n  /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */\n  --lightness-600-660: 0%;\n  --lightness-700-760: 0%;\n  --lightness-800-860: 0%;\n  --lightness-900: 0%;\n  --primary-100: hsl(var(--primary-100-hsl)/1);\n  --primary-100-hsl: 0 calc(var(--saturation-factor, 1)*0%) 97.6%;\n  --primary-130: hsl(var(--primary-130-hsl)/1);\n  --primary-130-hsl: 220 calc(var(--saturation-factor, 1)*13%) 95.5%;\n  --primary-160: hsl(var(--primary-160-hsl)/1);\n  --primary-160-hsl: 210 calc(var(--saturation-factor, 1)*11.1%) 92.9%;\n  --primary-200: hsl(var(--primary-200-hsl)/1);\n  --primary-200-hsl: 216 calc(var(--saturation-factor, 1)*9.8%) 90%;\n  --primary-230: hsl(var(--primary-230-hsl)/1);\n  --primary-230-hsl: 210 calc(var(--saturation-factor, 1)*9.1%) 87.1%;\n  --primary-260: hsl(var(--primary-260-hsl)/1);\n  --primary-260-hsl: 214 calc(var(--saturation-factor, 1)*8.4%) 83.7%;\n  --primary-300: hsl(var(--primary-300-hsl)/1);\n  --primary-300-hsl: 210 calc(var(--saturation-factor, 1)*9.3%) 78.8%;\n  --primary-330: hsl(var(--primary-330-hsl)/1);\n  --primary-330-hsl: 215 calc(var(--saturation-factor, 1)*8.8%) 73.3%;\n  --primary-345: hsl(var(--primary-345-hsl)/1);\n  --primary-345-hsl: 214 calc(var(--saturation-factor, 1)*8.4%) 67.5%;\n  --primary-360: hsl(var(--primary-360-hsl)/1);\n  --primary-360-hsl: 214 calc(var(--saturation-factor, 1)*8.1%) 61.2%;\n  --primary-400: #ffffff;\n  --primary-400-hsl: 223 calc(var(--saturation-factor, 1)*5.8%) 52.9%;\n  --primary-430: hsl(var(--primary-430-hsl)/1);\n  --primary-430-hsl: 229 calc(var(--saturation-factor, 1)*4.8%) 44.9%;\n  --primary-460: hsl(var(--primary-460-hsl)/1);\n  --primary-460-hsl: 228 calc(var(--saturation-factor, 1)*5.2%) 38%;\n  --primary-500: hsl(var(--primary-500-hsl)/1);\n  --primary-500-hsl: 228 calc(var(--saturation-factor, 1)*6%) 32.5%;\n  --primary-530: hsl(var(--primary-530-hsl)/1);\n  --primary-530-hsl: 227 calc(var(--saturation-factor, 1)*6.5%) 27.3%;\n  --primary-560: hsl(var(--primary-560-hsl)/1);\n  --primary-560-hsl: 225 calc(var(--saturation-factor, 1)*6.7%) 23.5%;\n  --primary-600: hsl(var(--primary-600-hsl)/1);\n  --primary-600-hsl: 223 calc(var(--saturation-factor, 1)*6.7%) calc(var(--lightness-600-660, 0) + 20.6%);\n  --primary-630: hsl(var(--primary-630-hsl)/1);\n  --primary-630-hsl: 220 calc(var(--saturation-factor, 1)*6.5%) calc(var(--lightness-600-660, 0) + 18%);\n  --primary-645: hsl(var(--primary-645-hsl)/1);\n  --primary-645-hsl: 220 calc(var(--saturation-factor, 1)*7%) calc(var(--lightness-600-660, 0) + 16.9%);\n  --primary-660: hsl(var(--primary-660-hsl)/1);\n  --primary-660-hsl: 228 calc(var(--saturation-factor, 1)*6.7%) calc(var(--lightness-600-660, 0) + 14.7%);\n  --primary-700: hsl(var(--primary-700-hsl)/1);\n  --primary-700-hsl: 225 calc(var(--saturation-factor, 1)*6.3%) calc(var(--lightness-700-760, 0) + 12.5%);\n  --primary-730: hsl(var(--primary-730-hsl)/1);\n  --primary-730-hsl: 225 calc(var(--saturation-factor, 1)*7.1%) calc(var(--lightness-700-760, 0) + 11%);\n  --primary-760: hsl(var(--primary-760-hsl)/1);\n  --primary-760-hsl: 220 calc(var(--saturation-factor, 1)*6.4%) calc(var(--lightness-700-760, 0) + 9.2%);\n  --primary-800: hsl(var(--primary-800-hsl)/1);\n  --primary-800-hsl: 220 calc(var(--saturation-factor, 1)*8.1%) calc(var(--lightness-800-860, 0) + 7.3%);\n  --primary-830: #080808;\n  --primary-830-hsl: 240 calc(var(--saturation-factor, 1)*4%) calc(var(--lightness-800-860, 0) + 4.9%);\n  --primary-860: #080808;\n  --primary-860-hsl: #080808 !important;\n  --primary-900: #080808 !important;\n  --primary-900-hsl: 0 calc(var(--saturation-factor, 1)*0%) calc(var(--lightness-900, 0) + 0.8%);\n}\n\n.theme-dark,\nhtml.theme-dark .theme-light .root_a28985,\n.theme-light.popout_a6e77f {\n  --activity-card-background: #080808 !important;\n  --android-navigation-bar-background: #080808 !important;\n  --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5) !important;\n  --android-ripple: hsl(var(--white-500-hsl)/0.07) !important;\n  --background-accent: var(--primary-760) !important;\n  --background-floating: #080808 !important;\n  --background-message-hover: hsl(var(--primary-900-hsl)/0.06) !important;\n  --background-mobile-primary: var(--black-500) !important;\n  --background-mobile-secondary: var(--primary-860) !important;\n  --background-modifier-accent: hsl(var(--primary-760-hsl)/0.48) !important;\n  --background-modifier-active: hsl(var(--primary-760-hsl)/0.48) !important;\n  --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;\n  --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;\n  --background-nested-floating: #080808 !important;\n  --background-primary: #080808 !important;\n  --background-secondary: #080808 !important;\n  --background-secondary-alt: #080808 !important;\n  --background-tertiary: var(--primary-860) !important;\n  --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6) !important;\n  --scrollbar-auto-scrollbar-color-track: var(--primary-860) !important;\n  --scrollbar-auto-scrollbar-color-thumb: var(--primary-800) !important;\n  --scrollbar-auto-thumb: var(--primary-800) !important;\n  --scrollbar-auto-track: var(--primary-860) !important;\n  --scrollbar-thin-thumb: var(--primary-800) !important;\n  --scrollbar-thin-track: transparent !important;\n  --button-outline-brand-background: hsl(var(--white-500-hsl)/0) !important;\n  --button-outline-brand-text: var(--white-500) !important;\n  --button-outline-brand-text-active: var(--white-500) !important;\n  --button-outline-brand-text-hover: var(--white-500) !important;\n  --button-outline-danger-background: hsl(var(--white-500-hsl)/0) !important;\n  --button-outline-danger-background-active: var(--red-460) !important;\n  --button-outline-danger-background-hover: var(--red-430) !important;\n  --button-outline-danger-border: var(--red-400) !important;\n  --button-outline-danger-border-active: var(--red-430) !important;\n  --button-outline-danger-border-hover: var(--red-430) !important;\n  --button-outline-danger-text: var(--white-500) !important;\n  --button-outline-danger-text-active: var(--white-500) !important;\n  --button-outline-danger-text-hover: var(--white-500) !important;\n  --button-outline-positive-background: hsl(var(--white-500-hsl)/0) !important;\n  --button-outline-positive-text: var(--white-500) !important;\n  --button-outline-positive-text-active: var(--white-500) !important;\n  --button-outline-positive-text-hover: var(--white-500) !important;\n  --button-outline-primary-background: var(--primary-700) !important;\n  --button-outline-primary-background-active: var(--primary-600) !important;\n  --button-outline-primary-background-hover: var(--primary-630) !important;\n  --button-outline-primary-border: var(--primary-700) !important;\n  --button-outline-primary-border-active: var(--primary-600) !important;\n  --button-outline-primary-border-hover: var(--primary-630) !important;\n  --button-outline-primary-text: var(--white-500) !important;\n  --button-outline-primary-text-active: var(--white-500) !important;\n  --button-outline-primary-text-hover: var(--white-500) !important;\n  --button-secondary-background: var(--primary-700) !important;\n  --button-secondary-background-active: var(--primary-600) !important;\n  --button-secondary-background-disabled: var(--primary-700) !important;\n  --button-secondary-background-hover: var(--primary-630) !important;\n  --channel-icon: var(--primary-400) !important;\n  --channel-text-area-placeholder: var(--primary-400) !important;\n  --channels-default: var(--primary-360) !important;\n  --channeltextarea-background: var(--primary-830) !important;\n  --chat-background: var(--black-500) !important;\n  --chat-border: var(--primary-700) !important;\n  --chat-input-container-background: var(--primary-600) !important;\n  --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6) !important;\n  --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;\n  --deprecated-quickswitcher-input-background: var(--primary-400) !important;\n  --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3) !important;\n  --deprecated-store-bg: var(--black-500) !important;\n  --deprecated-text-input-bg: var(--primary-700) !important;\n  --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3) !important;\n  --deprecated-text-input-border-disabled: var(--primary-700) !important;\n  --deprecated-text-input-border-hover: var(--primary-900) !important;\n  --deprecated-text-input-prefix: var(--primary-200) !important;\n  --display-banner-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;\n  --forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl)/0.8) !important;\n  --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;\n  --header-primary: var(--primary-130) !important;\n  --header-secondary: var(--primary-345) !important;\n  --home-background: var(--black-500) !important;\n  --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;\n  --info-danger-text: var(--white-500) !important;\n  --info-help-text: var(--white-500) !important;\n  --info-positive-text: var(--white-500) !important;\n  --info-warning-text: var(--white-500) !important;\n  --input-background: var(--primary-800) !important;\n  --input-placeholder-text: var(--input-placeholder-text-dark) !important;\n  --interactive-active: var(--primary-130) !important;\n  --interactive-hover: var(--primary-230) !important;\n  --interactive-muted: var(--primary-500) !important;\n  --interactive-normal: var(--primary-345) !important;\n  --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6) !important;\n  --logo-primary: var(--white-500) !important;\n  --mention-background: #151515 !important;\n  --modal-background: var(--primary-860) !important;\n  --modal-footer-background: var(--primary-900) !important;\n  --profile-gradient-message-input-border: hsl(var(--primary-500-hsl)/0.48) !important;\n  --profile-gradient-note-background: hsl(var(--black-500-hsl)/0.3) !important;\n  --profile-gradient-overlay: hsl(var(--black-500-hsl)/0.6) !important;\n  --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl)/0.8) !important;\n  --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl)/0.16) !important;\n  --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5) !important;\n  --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2) !important;\n  --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45) !important;\n  --spoiler-hidden-background: var(--primary-700) !important;\n  --spoiler-revealed-background: var(--primary-660) !important;\n  --status-danger-text: var(--white-500) !important;\n  --status-positive-text: var(--white-500) !important;\n  --status-warning-text: var(--black-500) !important;\n  --text-muted: var(--primary-345) !important;\n  --text-normal: var(--primary-300) !important;\n  --textbox-markdown-syntax: var(--primary-360) !important;\n  --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;\n  --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;\n  --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;\n  --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.16) !important;\n  --elevation-high: 0 8px 16px hsl(var(--black-500-hsl)/0.24) !important;\n  --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%) !important;\n  --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;\n  --legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);\n  --legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);\n  --legacy-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);\n}\n\n.theme-dark:not(.custom-profile-theme) {\n  --profile-gradient-primary-color: var(--background-floating) !important;\n  --profile-gradient-secondary-color: var(--background-floating) !important;\n  --profile-gradient-overlay-color: transparent !important;\n  --profile-gradient-button-color: var(--button-secondary-background) !important;\n  --profile-avatar-border-color: var(--background-floating) !important;\n  --profile-body-background-color: var(--background-primary) !important;\n  --profile-body-background-hover: var(--background-modifier-hover) !important;\n  --profile-body-divider-color: var(--background-modifier-accent) !important;\n  --profile-body-border-color: var(--border-faint) !important;\n  --profile-message-input-border-color: var(--background-modifier-accent) !important;\n  --profile-note-background-color: var(--background-tertiary) !important;\n  --profile-role-pill-background-color: var(--background-floating) !important;\n  --profile-role-pill-border-color: var(--interactive-normal) !important;\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .container__827e6 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .bar_e58961 {\n  background-color: var(--background-accent);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .markDash__54545 {\n  background: var(--background-accent);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .container__26baa [class*=searchBar] {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container__26baa [class*=searchBar] .searchAnswer__2ccaf,\n:is(.theme-dark, .theme-midnight) #app-mount .container__26baa [class*=searchBar] .searchFilter_dbda51 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .form_d8a4a1 .optionPill__618f2, .container__694a1 .form_d8a4a1 .optionPill__618f2 {\n  background-color: var(--primary-730);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .form_d8a4a1 .channelAttachmentArea__5e46a .upload_c98ecb, .container__694a1 .form_d8a4a1 .channelAttachmentArea__5e46a .upload_c98ecb {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .wrapper__4e6b6 {\n  background-color: var(--background-tertiary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .mainCard__0ec2c, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__50cdd, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .increasedActivityMainCard_e53744, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__852f7, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__7afce {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .loadingCard_ecb256, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .card__2c1e2 {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__7d004:hover {\n  background-color: var(--background-modifier-hover);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__7d004:active {\n  background-color: var(--background-modifier-active);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__7d004.isOpen_d88bb6 {\n  background-color: var(--background-modifier-selected);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__7d004 .textContentFooter_e03480 {\n  background: transparent;\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container_de2a56:active, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__5130c:active {\n  background-color: var(--background-modifier-active);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container_de2a56.isOpen__8593d, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container_de2a56.isOpen__036bf, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__5130c.isOpen__8593d, :is(.theme-dark, .theme-midnight) #app-mount .container_b92032 .container__5130c.isOpen__036bf {\n  background-color: var(--background-modifier-selected);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .messageListItem__050f9:hover {\n  background-color: rgba(255, 255, 255, 0.015);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .tile_ebc93b {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .tile_ebc93b .invalidPoop__9bdd8 {\n  background-color: var(--background-secondary-alt);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .invite__2a93b {\n  border-color: var(--background-secondary-alt);\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 .enabled_d1cac4[aria-checked=false] .answerInner_b97752:hover {\n  outline-color: var(--background-secondary-alt);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 .answerInner_b97752 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 .normalStylesDefault__1c2f5 .votePercentageBar_ba9103 {\n  background-color: var(--background-secondary-alt);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container__03ec9,\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container__6b2e5,\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .header__71942,\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .scrollerContainer_dda72c,\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .emptyPage_feb902 {\n  background-color: transparent;\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .prompt__1b100 {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .prompt__1b100 .selected__31118 {\n  background-color: var(--background-modifier-active);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .profileCard__1d74b {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .channelRow__538ef {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .channelRow__538ef:not(.disabled__556e5):hover {\n  background-color: var(--background-modifier-hover);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .wrapper__6bf2d.minimum__7f356 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .iconBackground__62649 {\n  background-color: var(--background-secondary-alt);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container__3aeff:hover {\n  background-color: var(--background-modifier-hover);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .button_b82d53.buttonColor__7bad9, :is(.theme-dark, .theme-midnight) #app-mount .button_b82d53 .buttonColor__7bad9 {\n  background-color: var(--button-secondary-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .button_b82d53.buttonColor__7bad9:hover, :is(.theme-dark, .theme-midnight) #app-mount .button_b82d53 .buttonColor__7bad9:hover {\n  background-color: var(--button-secondary-background-hover);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .button_b82d53.buttonColor__7bad9:active, :is(.theme-dark, .theme-midnight) #app-mount .button_b82d53 .buttonColor__7bad9:active {\n  background-color: var(--button-secondary-background-active);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .key__6a8d9 {\n  box-shadow: inset 0 -4px 0 var(--primary-760);\n  background-color: var(--primary-660);\n}\n\n:is(.theme-dark, .theme-midnight) .folder__17546.hover__043de {\n  background-color: var(--background-secondary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount [class=wrapper__8436d] .childWrapper_a6ce15,\n:is(.theme-dark, .theme-midnight) #app-mount [class=circleIconButton__05cf2] {\n  background-color: var(--background-secondary-alt);\n}\n\n:is(.theme-dark, .theme-midnight) .container_f79ab4 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .member_aa4760,\n:is(.theme-dark, .theme-midnight) #app-mount .members__573eb {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .contentWrapper_f9bc93 {\n  background: var(--modal-background);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .authBox__6f336 {\n  background-color: transparent;\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .navRow_bb8efc {\n  background-color: var(--modal-footer-background);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .message_ff43e6 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985.rootWithShadow_d20cd6 {\n  box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .footerSeparator__2af8d {\n  box-shadow: inset 0 1px 0 var(--modal-footer-background);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .container__33507 {\n  background-color: var(--input-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .footer_d84330 {\n  background-color: var(--modal-footer-background);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .keyboardShortcutsModal__44538 {\n  background-color: var(--modal-background);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .modal_c01034 .verifiedRoleHasRole__912d9 {\n  background-color: var(--background-secondary);\n  border-color: var(--background-secondary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985.uploadModal__6eb75 {\n  background-color: var(--modal-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985.uploadModal__6eb75 .footer_f06dbb {\n  box-shadow: inset 0 1px 0 hsl(var(--primary-900-hsl)/0.6);\n  background-color: var(--modal-footer-background);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .header_cc5843 {\n  box-shadow: none;\n  background-color: var(--modal-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .sectionContent_b96e47 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .channels__99b5a {\n  border-color: var(--background-secondary-alt);\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .cardPrimary__1ee6a {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .default__23a5a {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .promptContent__129f0 .optionButtonWrapper_c86844.selected__31118 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .promptContent__129f0 .overlay_a15774 {\n  background: none !important;\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .container_f5b15d {\n  background-color: var(--modal-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_f5b15d .footer__95d9e {\n  background-color: var(--modal-footer-background);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .modal_daea9e .body_af7d3b {\n  background-color: var(--modal-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .modal_daea9e .container_ccc120, :is(.theme-dark, .theme-midnight) #app-mount .modal_daea9e .roleTag_d5379a {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .previewDark__9ce54 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .platform-overlay) .overlayActive__6e5ba {\n  background-color: hsl(var(--primary-900-hsl)/0.75);\n}\n:is(.theme-dark, .platform-overlay) .layoutUnlocked__88d1a .widget_fa48f3.default_afb52e {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .platform-overlay) :is(.contained__6398e, .wrapper_f8616a:not(:has(.locked__51092))) .headerContainer_c6e0ea,\n:is(.theme-dark, .platform-overlay) :is(.contained__6398e, .wrapper_f8616a:not(:has(.locked__51092))) .footer__20fac {\n  background-color: var(--background-primary) !important;\n}\n:is(.theme-dark, .platform-overlay) :is(.contained__6398e, .wrapper_f8616a:not(:has(.locked__51092))) .messagesContainer__8cac7 {\n  background-color: var(--background-primary) !important;\n}\n:is(.theme-dark, .platform-overlay) .opacityHeader__60a91 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .platform-overlay) .wrapper_f8616a:has(.default_afb52e) .footer__20fac,\n:is(.theme-dark, .platform-overlay) .wrapper_f8616a:has(.default_afb52e) .headerContainer_c6e0ea {\n  border-radius: 0px;\n}\n:is(.theme-dark, .platform-overlay) .background-opacity-high .scrollableContainer_ff917f {\n  background-color: var(--channeltextarea-background);\n}\n\n:is(.theme-dark, .platform-overlay) .themePrimary_c433ae.container__5c54e {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .platform-overlay) .themePrimary_c433ae.container__5c54e:hover {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .platform-overlay) .themePrimary_c433ae .dismissButton_aad284 {\n  box-shadow: none;\n  background-color: var(--background-secondary-alt);\n}\n\n:is(.theme-dark, .platform-overlay) .option__1d8de:not(.selected__4e154, :hover) {\n  background-color: var(--primary-600);\n}\n:is(.theme-dark, .platform-overlay) .disabled__586d3:not(.selected__4e154, :hover) {\n  color: var(--primary-600);\n}\n\n:is(.theme-dark, .platform-overlay) .sidebar__398fc {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .platform-overlay) .sidebar__398fc .header__0d02e,\n:is(.theme-dark, .platform-overlay) .sidebar__398fc .scroller__89969 {\n  background-color: transparent !important;\n}\n:is(.theme-dark, .platform-overlay) .sidebar__398fc .searchBar__107ca {\n  box-shadow: none !important;\n}\n:is(.theme-dark, .platform-overlay) .sidebar__398fc .panels__1458f, :is(.theme-dark, .platform-overlay) .sidebar__398fc .panels__1458f > div,\n:is(.theme-dark, .platform-overlay) .sidebar__398fc .panels_f8dc5f, :is(.theme-dark, .platform-overlay) .sidebar__398fc .panels_f8dc5f > div {\n  background-color: var(--background-primary) !important;\n}\n\n:is(.theme-dark, .platform-overlay) .widget_fa48f3.pinned_a0557c .draggableStartArea__9df7d,\n:is(.theme-dark, .platform-overlay) .widget_fa48f3.pinned_a0557c .body_c27002,\n:is(.theme-dark, .platform-overlay) .widget_fa48f3.pinned_a0557c .controls_c0b2b8 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .nowPlayingColumn_b025fe .separator_fc3370 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .nowPlayingColumn_b025fe .applicationStreamingPreviewWrapper_cdc31a {\n  background-color: var(--background-secondary-alt);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .directoryContainer__36395 {\n  background-color: var(--background-primary);\n}\n\nbody .colorLight-1o6rnK {\n  background-color: var(--background-tertiary);\n}\nbody .borderPrimary-1l1Cvj {\n  border-color: var(--background-secondary);\n}\nbody .divider-_0um2u {\n  background-color: var(--background-modifier-accent);\n}\nbody .hasBorder-17PTeu {\n  border-bottom-color: var(--background-modifier-accent);\n}\nbody .searchContainer-2duiLS:is(:hover) button {\n  border-color: var(--background-secondary);\n  background-color: var(--input-background);\n}\nbody .h6-3NIpOq {\n  background: var(--background-primary);\n}\nbody .scrollbar-1NUwvY .thumb-3r19ww {\n  background-color: var(--background-secondary-alt) !important;\n}\nbody [class$=control] {\n  border-color: var(--background-secondary);\n}\nbody [class$=control]:hover {\n  border-color: var(--background-secondary-alt);\n}\nbody .css-1129voj-menu {\n  border-color: var(--background-secondary);\n  box-shadow: var(--background-secondary) 0px 1px 5px 0px;\n  background-color: var(--background-floating);\n}\nbody .css-lbnt4y-option {\n  background-color: var(--background-modifier-selected);\n}\nbody .css-1jrkz9i-option {\n  background-color: var(--background-modifier-hover);\n}\nbody .modalContent-31OOYM {\n  box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);\n  background-color: var(--modal-background);\n}\nbody .modalContent-31OOYM .modalFooter-3193QM {\n  border: none;\n  box-shadow: inset 0 1px 0 hsl(var(--primary-900-hsl)/0.6);\n  background-color: var(--modal-footer-background);\n}\nbody .input-2g-os5, body .inputWrapper-3a4ywb {\n  border-color: var(--background-secondary);\n  background-color: var(--input-background);\n}\nbody .multiInputBlur-2Gn0-C {\n  border-color: var(--background-secondary);\n  background-color: var(--input-background);\n}\nbody .grid-2a45cj .header-1JzP0t {\n  background-color: var(--background-tertiary);\n}\nbody .grid-2a45cj .rowWrapper-2RxnWO {\n  background-color: var(--background-secondary);\n}\nbody .grid-2a45cj .rowWrapper-2RxnWO:hover::before {\n  background-color: var(--background-secondary-alt);\n}\nbody .grid-2a45cj .rowWrapper-2RxnWO::after {\n  border-color: var(--background-secondary-alt) !important;\n}\nbody .disabled-29cfPA, body .disabled-29cfPA:hover {\n  border-color: var(--background-secondary);\n  background-color: var(--background-tertiary);\n}\nbody .disabled-29cfPA + .pageButtonNext-2_bbdk,\nbody .disabled-29cfPA + .pageCount-17vMJm,\nbody .disabled-29cfPA:hover + .pageButtonNext-2_bbdk,\nbody .disabled-29cfPA:hover + .pageCount-17vMJm,\nbody .pageButtonNext-2_bbdk,\nbody .pageCount-17vMJm,\nbody .pageButtonNext-2_bbdk,\nbody .pageButtonPrev-3q9rh8 {\n  border-color: var(--background-secondary) !important;\n  background-color: var(--background-tertiary);\n}\nbody .pageButtonNext-2_bbdk:hover,\nbody .pageButtonPrev-3q9rh8:hover {\n  border-color: var(--background-secondary-alt) !important;\n  background-color: var(--background-secondary);\n}\nbody .wrapper-28jGDw {\n  background-color: var(--background-tertiary);\n}\nbody .wrapper-28jGDw .scrollbar-1NUwvY {\n  background-color: var(--background-tertiary) !important;\n}\nbody .wrapper-28jGDw .scrollbar-1NUwvY .pad-1eAWXq {\n  background-color: var(--background-tertiary) !important;\n}\nbody .contentWrapper-3RqEiS {\n  background-color: var(--background-primary);\n}\nbody .contentWrapper-3RqEiS .scrollbar-1NUwvY {\n  background-color: var(--background-primary) !important;\n}\nbody .contentWrapper-3RqEiS .pad-1eAWXq {\n  background-color: var(--background-primary) !important;\n}\nbody .contentWrapper-3RqEiS .cardOptionTile-30nXFk:hover {\n  background-color: var(--background-modifier-hover);\n}\nbody .contentWrapper-3RqEiS .cardOptionTileSelected-wkswQf {\n  background-color: var(--background-modifier-active);\n}\nbody .contentWrapper-3RqEiS .cardLink-H6gvNe {\n  background-color: var(--background-secondary);\n}\nbody .contentWrapper-3RqEiS .cardLink-H6gvNe:hover {\n  background-color: var(--background-secondary-alt);\n}\nbody .contentWrapper-3RqEiS .cardLink-H6gvNe .cardImagePlaceholder-EjWnzT {\n  background-color: var(--background-primary);\n}\nbody .contentWrapper-3RqEiS .avatarUploaderInner-yEhTv5 {\n  background-color: var(--background-primary);\n}\nbody .contentWrapper-3RqEiS .accordionContainer-vSTU_l {\n  background-color: var(--background-tertiary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .content__76dcf .pageWrapper_c182d3 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .content__76dcf .searchBox__56feb {\n  background-color: var(--input-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .content__76dcf .searchBox__56feb input {\n  color: var(--primary-260);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .content__76dcf .searchBox__56feb input::placeholder {\n  color: var(--primary-400);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .content__76dcf .searchBox__56feb .searchIcon__58dfd, :is(.theme-dark, .theme-midnight) #app-mount .content__76dcf .searchBox__56feb .closeIcon_da3bc1 {\n  color: var(--interactive-normal);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .page_e5cc79 {\n  background-color: var(--background-primary) !important;\n}\n:is(.theme-dark, .theme-midnight) #app-mount .page_e5cc79 .mainTableContainer__37b54 {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .page_e5cc79 .container__33507 {\n  background-color: var(--background-secondary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .row__4f559 {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .row__4f559:hover {\n  background-color: var(--background-modifier-hover);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .clickableAction__9e970:hover .action__94060 {\n  background-color: var(--background-modifier-hover);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .action__94060 {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .sidebarCardWrapper__98124 {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .headerIcon_f56272 {\n  background-color: var(--background-tertiary);\n  border-color: var(--background-tertiary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .container_cfe93d {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_cfe93d .opaqueBackground__45978 {\n  background-color: var(--background-secondary-alt);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .shop_b31ed2 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .addGamePopout__61649 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .container_b1d738 .header_def8e2, :is(.theme-dark, .theme-midnight) #app-mount .container_b1d738 .autocompleteArrow__6156d {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .container_b1d738 .sectionTag__03ea5 {\n  background-color: var(--background-secondary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .autocomplete__743a5 {\n  background-color: var(--background-tertiary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .autocomplete__743a5 .categoryHeader__70c8e {\n  background-color: var(--background-tertiary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .contentWarningPopout__84e38 {\n  background-color: var(--background-floating);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .contentWarningPopout__84e38 .footer__068c0 {\n  background-color: var(--background-tertiary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .phoneFieldPopout_a20b2f {\n  background-color: var(--background-floating);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .drawerSizingWrapper_e20f1f .emptyHintCard_cac1d9 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .drawerSizingWrapper_e20f1f .imageLoading_fb7de7 {\n  border-radius: 35%;\n  background-color: var(--background-secondary-alt);\n  background-image: none;\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .container_cff83e {\n  background-color: var(--background-secondary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .customColorPicker_bbc020 {\n  border: none;\n  box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);\n  background-color: var(--background-tertiary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .overflowRolesPopout__03a09 {\n  background-color: var(--background-floating);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .overflowRolesPopout__03a09 .overflowRolesPopoutArrow_de5244 {\n  background-color: var(--background-floating);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .quickSelectPopout__56a98 {\n  background-color: var(--background-floating);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .streamPreview__965fa {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .streamPreview__965fa .previewContainer__1e0bb {\n  background-color: var(--background-secondary-alt);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .focused__68b93 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .calendarPicker__47c85 .react-datepicker {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .calendarPicker__47c85 .react-datepicker__header {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .calendarPicker__47c85 .react-datepicker__navigation,\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .calendarPicker__47c85 .react-datepicker__navigation {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .calendarPicker__47c85 .react-datepicker__current-month {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .calendarPicker__47c85 .react-datepicker__day--outside-month,\n:is(.theme-dark, .theme-midnight) #app-mount .layer__6b5c3 .calendarPicker__47c85 .react-datepicker__day--disabled {\n  background-color: var(--background-tertiary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .picker__6dca7 .soundButton__845c7 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .picker__6dca7 .keybindHint__28b43 {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .body__50a07 {\n  background-color: var(--background-secondary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .default__23a5a {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .avatarUploaderInnerSquareDisabled__2abd0 {\n  background-color: var(--background-secondary-alt);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .tierHeaderContent__3351e {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .prefixInput_e78a57 {\n  background-color: var(--input-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .backgroundContainer__8f24a {\n  background-color: var(--background-secondary-alt);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .containerFooter__2f30f {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .iconWrapper__0d13e {\n  background: var(--button-secondary-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .iconWrapper__0d13e .icon_bb7288:hover {\n  background: var(--button-secondary-background-hover);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .iconWrapper__0d13e .icon_bb7288:hover.disabled_f8a046 {\n  background: var(--button-secondary-background-disabled);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .auditLog__9228d {\n  border-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .auditLog__9228d .header__8cacc {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .auditLog__9228d .headerExpanded__05a35 {\n  background-color: var(--background-secondary-alt);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .auditLog__9228d .divider__1ee1f {\n  background-color: var(--background-modifier-accent);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .auditLog__9228d .changeDetails_c0aa16 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .tierBody_fd5f94 {\n  background-color: var(--background-secondary-alt);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .sidebarRegion__36437,\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .sidebarRegionScroller__8113e {\n  background-color: var(--background-primary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .cardPrimary__1ee6a.outline__16075 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .connectContainer_e331e3 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .connectContainer_e331e3 .wrapper__5780f:hover {\n  background-color: var(--background-modifier-hover);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .guildHeader__30707 {\n  background-color: var(--background-secondary-alt);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .paymentPane__541d7 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .paymentPane__541d7 .expandedInfo_efc786 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .paymentPane__541d7 .paginator__28ba5 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .paymentPane__541d7 .paginator__28ba5 .payment_f27ac6 {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .paymentPane__541d7 .paginator__28ba5 .payment_f27ac6.hoverablePayment__4ff3b:hover {\n  background-color: var(--background-modifier-hover);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .paymentPane__541d7 .bottomDivider_c85b47 {\n  border-bottom-color: var(--background-modifier-accent);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .codeRedemptionRedirect_b3eca7 {\n  border-color: var(--background-tertiary);\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .preview__30ef4 {\n  border-color: var(--background-secondary);\n  background-color: var(--background-primary) !important;\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .notches__5406c.gray__211f0 {\n  color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .container__8267c {\n  background-color: var(--input-background);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .game__19f4b {\n  box-shadow: none;\n  border-bottom: 1px solid var(--background-modifier-accent);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .game__19f4b .gameNameInput__3e1e4:is(:hover, :focus) {\n  border-color: var(--background-tertiary);\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .option__1d8de:not(.selected__4e154, :hover) {\n  background-color: var(--background-accent);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .disabled__586d3:not(.selected__4e154, :hover) {\n  color: var(--background-accent);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .sidebar_e031be nav {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .sidebar_e031be [class*=scroller] {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .sidebar_e031be [class*=scroller].fade_ba0fa0 {\n  background-color: transparent;\n}\n\n:is(.theme-dark, .theme-midnight) .sidebar_e031be .searchBar__621ec {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) .sidebar_e031be .searchBar__621ec .searchBarComponent__8f95f {\n  background-color: var(--background-secondary);\n}\n\n:is(.theme-dark, .theme-midnight) #app-mount .sidebar_e031be .container_f41675:not(.hasBanner__04337) .header__77c95 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .sidebar_e031be .container_f41675:not(.hasBanner__04337) .header__77c95:hover {\n  background-color: var(--background-secondary);\n}\n:is(.theme-dark, .theme-midnight) #app-mount .sidebar_e031be .hasBanner__04337 [class*=scroller-] {\n  background-color: transparent;\n}\n\n:is(.theme-dark, .theme-midnight) .sidebar_e031be .panels__58331 {\n  background-color: var(--background-primary);\n}\n:is(.theme-dark, .theme-midnight) .sidebar_e031be .panels__58331 > div, :is(.theme-dark, .theme-midnight) .sidebar_e031be .panels__58331 .wrapper_e832ee > div {\n  background: var(--background-primary) !important;\n}\n\n * {\n    font-family: iosevka;\n }\n\n\n .newMessagesBar__8b272, .replying__38514, .highlighted_fc800f {\n  background-color: #151515 !important;\n }\n\n .replying__38514:before {\n  background-color: #252525 !important;\n\n }\n\n.lookFilled__950dd.colorBrand__27d57 {\n  background-color: #252525 !important;\n}"
+}
