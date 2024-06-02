@@ -1,0 +1,100 @@
+import requests
+import json
+import random
+import string
+import os
+import traceback
+import sys
+
+snusbase_auth = ''
+snusbase_api = 'https://api-experimental.snusbase.com/'
+
+class DataSearch:
+    """Class for performing data searches."""
+
+    @staticmethod
+    def send_request(url, body=None):
+        """Send an HTTP request to the Snusbase API.
+
+        Args:
+            url (str): The API endpoint.
+            body (dict, optional): The request body. Defaults to None.
+
+        Returns:
+            dict: JSON response from the API.
+        """
+        headers = {
+            'Auth': snusbase_auth,
+            'Content-Type': 'application/json',
+        }
+        method = 'POST' if body else 'GET'
+        data = json.dumps(body) if body else None
+        response = requests.request(
+            method, snusbase_api + url, headers=headers, data=data)
+        return response.json()
+
+    @staticmethod
+    def get_res(search_type: str, user_argument: str):
+        """Perform a data search.
+
+        Args:
+            search_type (str): Type of search (email, username, etc.).
+            user_argument (str): User's search input.
+
+        Returns:
+            str: Search results formatted as a string.
+        """
+        search_response = DataSearch.send_request('data/search', {
+            'terms': [user_argument],
+            'types': [search_type],
+            'wildcard': False,
+        })
+
+        response_data = search_response
+
+        if 'results' in response_data:
+            output = ""
+            print("╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")
+            print(f"│  SEARCHED FOR: ->  {user_argument} ")
+            print("╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")
+            output += "\n╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\n"
+            
+            for key, value_list in response_data['results'].items():
+                output += f"│  Item: {key}\n"
+                for item in value_list:
+                    for attribute, value in item.items():
+                        output += f"│  {attribute}: {value}\n"
+                    output += "│──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\n"
+            output += "╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\n"
+            return output
+        else:
+            pass
+
+def main():
+    try:
+        if len(sys.argv) != 3:
+            print("Usage: python3 main.py <search_type> <search_argument>")
+            print("Usage: python3 main.py name 'John Doe'")
+            print("\n  - email")
+            print("  - username")
+            print("  - lastip")
+            print("  - password")
+            print("  - name")
+            print("  - hash")
+            return
+
+        search_type = sys.argv[1]
+        search_argument = sys.argv[2]
+
+        response = DataSearch.get_res(search_type, search_argument)
+        if response:
+            print(response)
+        else:
+            print("No results found.")
+
+    except Exception as e:
+        traceback_str = traceback.format_exc()
+        print(f"[+] An error occurred: {e}\n{traceback_str}")
+
+if __name__ == "__main__":
+    main()

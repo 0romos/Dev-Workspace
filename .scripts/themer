@@ -1,0 +1,32 @@
+#! /bin/sh
+
+DIR="$HOME/.config/bspwm"
+rofi_command="rofi -theme $DIR/rofi/themes/launcher.rasi"
+chosen=$(printf "Dark\nDevelopment" | $rofi_command -p 'Theme Switcher' -dmenu -selected-row 0)
+
+dark () {
+	sleep 0.5s
+	cd $HOME/.rice/Dark && cp -r * ~/.config/
+    cp -r $HOME/.rice/Dark/style.css $HOME/Documents/Homepage/
+    cp -r $HOME/.rice/Dark/settings.json $HOME/.config/Code/User/
+    cp -r $HOME/.rice/Dark/Flowest $HOME/Documents/Notes/.obsidian/themes/
+    bspc wm -r
+}
+
+development () {
+	sleep 0.5s
+	cd $HOME/.rice/Dark && cp -r * ~/.config/
+    cp -r $HOME/.rice/Dark/style.css $HOME/Documents/Homepage/
+    cp -r $HOME/.rice/Dark/settings.json $HOME/.config/Code/User/
+    cp -r $HOME/.rice/Dark/Flowest $HOME/Documents/Notes/.obsidian/themes/
+    bspc wm -r
+}
+
+
+
+case "$chosen" in
+	"Dark") dark;;
+	"Development") development;;
+	*) exit 1 ;;
+esac
+
