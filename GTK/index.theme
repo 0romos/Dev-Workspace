@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Development
+Comment=A Minimal Development theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Development
+MetacityTheme=Development
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
