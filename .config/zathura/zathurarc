@@ -1,0 +1,55 @@
+set adjust-open "best-fit"
+set pages-per-row 1
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+set zoom-min 10
+set guioptions ""
+set font "inconsolata 15"
+set default-fg                "#cccccc"
+set default-bg 			          "#080808"
+
+set completion-bg		          "#080808"
+set completion-fg		          "#cccccc"
+set completion-highlight-bg	  "#171717"
+set completion-highlight-fg	  "#cccccc"
+set completion-group-bg		    "#080808"
+set completion-group-fg		    "#171717"
+
+set statusbar-fg		          "#cccccc"
+set statusbar-bg		          "#080808"
+
+set notification-bg		        "#080808"
+set notification-fg		        "#cccccc"
+set notification-error-bg	    "#080808"
+set notification-error-fg	    "#F38BA8"
+set notification-warning-bg	  "#080808"
+set notification-warning-fg	  "#FAE3B0"
+
+set inputbar-fg			          "#cccccc"
+set inputbar-bg 		          "#080808"
+
+set recolor-lightcolor		    "#080808"
+set recolor-darkcolor		      "#cccccc"
+
+set index-fg			            "#cccccc"
+set index-bg			            "#080808"
+set index-active-fg		        "#cccccc"
+set index-active-bg		        "#080808"
+
+set render-loading-bg		      "#080808"
+set render-loading-fg		      "#cccccc"
+
+set highlight-color		        "#171717"
+set highlight-fg              "#171717"
+set highlight-active-color	  "#171717"
+
+
+set recolor "true"
+set recolor-keephue "true"
+set render-loading "false"
+set scroll-step 50
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
