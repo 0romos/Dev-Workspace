@@ -1,0 +1,175 @@
+* {
+    background-color: #080808 !important;
+    border-color: #151515 !important;
+    color: #fff !important;
+    font-family: 'Iosevka Nerd Font' !important;
+}
+
+.Header {
+    background-color: #080808 !important;
+}
+
+.js-details-container {
+    background-color: #080808 !important;
+}
+
+.Details {
+    background-color: #080808 !important;
+}
+
+.px-3 {
+    background-color: #080808 !important;
+}
+
+.px-md-4 {
+    background-color: #080808 !important;
+}
+
+.px-lg-5 {
+    background-color: #080808 !important;
+}
+
+.flex-wrap {
+    background-color: #080808 !important;
+}
+
+.flex-md-nowrap {
+    background-color: #080808 !important;
+}
+
+.color-bg-default .p-3 {
+    background-color: #080808 !important;
+}
+
+.mt-2 {
+    background-color: #080808 !important;
+}
+
+.border {
+    background-color: #080808 !important;
+}
+
+.color-border-muted {
+    background-color: #080808 !important;
+}
+.rounded-1 {
+    background-color: #080808 !important;
+}
+
+.color-shadow-medium {
+    background-color: #080808 !important;
+}
+
+.height-full {
+    background-color: #080808 !important;
+}
+
+.Box {
+    background-color: #080808 !important;
+}
+
+.color-bg-default {
+    background-color: #080808 !important;
+}
+
+.container-xl .px-3 .px-md-4 .px-lg-5 {
+    background-color: #080808 !important;
+    display: none;
+}
+
+.color-bg-default {
+    background-color: #080808 !important;
+}
+
+.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-flowRow-start .Layout-main {
+    background-color: #080808 !important;
+}
+
+code,
+kbd,
+pre,
+samp {
+    background: #151515 !important;
+}
+
+span {
+    background: transparent !important;
+}
+
+
+.hLwWNO .PRIVATE_TreeView-item[aria-current="true"] > .PRIVATE_TreeView-item-container::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.75rem);
+    left: -8px;
+    width: 0.25rem;
+    height: 1.5rem;
+    background-color: #cccccc;
+    border-radius: 6px;
+}
+
+.AppHeader .AppHeader-button.AppHeader-button--hasIndicator::before {
+    background-color: #cccccc;
+}
+
+a {
+    background: #080808 !important;
+    color: #cccccc !important;
+}
+
+svg {
+    fill: #cccccc !important;
+}
+
+.border {
+    border-color: #151515 !important;
+}
+.color-fg-muted {
+    color: #cccccc !important;
+}
+
+.TimelineItem::before {
+    background: #151515;
+}
+
+.color-border-muted, .borderColor-muted {
+    border-color: #151515 !important;
+}
+
+
+.Link--primary {
+    color: #656565 !important;
+}
+
+.Link--secondary {
+    color: #656565 !important;
+}
+
+.color-fg-default, .fgColor-default {
+    color: #cccccc !important;
+}
+
+rect {
+    fill: #252525 !important;
+}
+
+.Link--muted {
+    color: #656565 !important;
+}
+
+.UnderlineNav {
+    box-shadow: none !important;
+}
+
+
+.UnderlineNav-item.selected::after, .UnderlineNav-item[aria-current]:not([aria-current="false"])::after, .UnderlineNav-item[role="tab"][aria-selected="true"]::after {
+    background: #656565 !important;
+}
+
+.color-bg-subtle, .bgColor-muted {
+    background: #080808 !important;
+}
+
+.border-bottom {
+    border-color: #151515 !important;
+}
